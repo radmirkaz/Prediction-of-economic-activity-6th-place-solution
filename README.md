@@ -11,4 +11,8 @@ The pipeline is made up of several blocks:
 And a step of post-processing:
 * selection of the model's prediction threshold
 
+## Feature Engineering
+
+Most of all features in my solution are based on time periods, month, season of the year, week(didn't work). The main boost was gain by aggregation one of time period and other category column from the dataframe. Aggregations was the same all the time ( 'mean', 'median', 'std', 'min', 'max', 'sum', 'len' ). Normalization features by user (divide num of unique operations by total count) for given clieint worked good too. Extracting features from *contractor_id* was inclined to overfitting, in my case it was overfitting to local validation, which was really great and correlated very confidently with the leaderboard. So, in my final solution I didn't use *contractor_id* for training. Finally, for this task we were able to extract embeddings with *PyTorch Lifestream* algorithm. As of my experience, It could work very well and could get high scores, but it is also inclined to overfitting.
+
 
