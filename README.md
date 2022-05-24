@@ -31,6 +31,26 @@ Even in the middle of the hackathon, it became clear that we were waiting for a 
 | 0.4199 | 0.4166 | 0.0033 | 0,0063 |
 
 
+## Setup for re-train
+
+Use config.py to quickly set parameters and train the model. I used [omegaconf](https://github.com/omry/omegaconf) for more convenience.
+
+To train models you should change paths in config files <br>
+```jsonc
+'paths': {
+  'payments_train': '',
+  'payments_test': '',
+
+  'target_train': '',
+  'client_id_test': '',
+
+  'save_path': '',
+  'save_name': ''
+
+},
+```
+
+
 
 
 
