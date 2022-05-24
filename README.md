@@ -1,5 +1,5 @@
 # Prediction-of-economic-activity-6th-place-solution
-Solving the hackathon problem from Tochka Bank
+Solving the hackathon problem from Tochka Bank. The task was about determination of the types of activities of companies by transactions (multi-target).
 
 This repository contains all files to train classifier of economic activity. This repository does not include any models.
 
