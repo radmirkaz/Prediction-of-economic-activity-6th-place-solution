@@ -36,7 +36,7 @@ if __name__ == '__main__':
         print('Fitting model', i)
 
         model = cb.CatBoostClassifier(loss_function=config.model.loss_function,
-                                      random_seed=config.model.seed,
+                                      random_seed=config.model.random_seed,
                                       learning_rate=config.model.learning_rate,
                                       iterations=config.model.iterations,
                                       early_stopping_rounds=config.model.early_stopping_rounds)
