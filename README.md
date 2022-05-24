@@ -20,5 +20,20 @@ Most of all features in my solution are based on time periods, month, season of 
 Well, the most used model for this task was catboost and that was the only model I've trained. However, as of my experience there are a lot of ways for modeling, such as 1D-CNN, GRU/LSTM networks, LightAutoML and other similar models. But I settled on catboost in order to work more on data and features, since this competition is completely about features, not about models. I manually selected the parameters for the model and it gave a solid boost. The rule I followed was "smaller lr, more epochs" (It gives you +0.005 to your score). As well, post-processing was the significant part of the score growth. I sorted the model's prediction threshold to get better score, It was one more thing that could lead to overfitting.
 
 
+## Overfitting and private leaderboard shake up
+
+Even in the middle of the hackathon, it became clear that we were waiting for a shake-up, so I tried my best to build a stable approach for a private leaderboard. I did not use features that somehow contributed to this, which helped me move up from 8th to 6th place in private and have the smallest difference between public and private scores from the top 10
+
+"Even in the middle of the hackathon, it became clear that we were waiting for a shake-up, so I tried my best to build a stable approach for a private leaderboard. I did not use features that somehow contributed to this, which helped me move up from 8th to 6th place in private and have the smallest difference between public and private scores from the top 10
+
+| Public result | Private result | Difference | Mean top 10 difference |
+| ------------- | -------------- | ---------- | ---------------------- |
+| 0.4199 | 0.4166 | 0.0033 | 0,0060 |
+
+
+
+
+
+
 
 
