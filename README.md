@@ -24,8 +24,6 @@ Well, the most used model for this task was catboost and that was the only model
 
 Even in the middle of the hackathon, it became clear that we were waiting for a shake-up, so I tried my best to build a stable approach for a private leaderboard. I did not use features that somehow contributed to this, which helped me move up from 8th to 6th place in private and have the smallest difference between public and private scores from the top 10
 
-"Even in the middle of the hackathon, it became clear that we were waiting for a shake-up, so I tried my best to build a stable approach for a private leaderboard. I did not use features that somehow contributed to this, which helped me move up from 8th to 6th place in private and have the smallest difference between public and private scores from the top 10
-
 | Public result | Private result | Difference | Mean top 10 difference |
 | ------------- | -------------- | ---------- | ---------------------- |
 | 0.4199 | 0.4166 | 0.0033 | 0,0063 |
