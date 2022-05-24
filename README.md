@@ -28,7 +28,7 @@ Even in the middle of the hackathon, it became clear that we were waiting for a 
 
 | Public result | Private result | Difference | Mean top 10 difference |
 | ------------- | -------------- | ---------- | ---------------------- |
-| 0.4199 | 0.4166 | 0.0033 | 0,0060 |
+| 0.4199 | 0.4166 | 0.0033 | 0,0063 |
 
 
 
