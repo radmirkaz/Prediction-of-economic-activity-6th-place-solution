@@ -21,11 +21,7 @@ config = {
     },
 
     'model': {
-        'loss_function': 'LogLoss',
-        'learning_rate': 0.05,
-        'iterations': 2000,
-        'early_stopping_rounds': 400,
-        'random_seed': '${seed}',
+#
     }
 }
 
